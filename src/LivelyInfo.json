@@ -1,0 +1,14 @@
+{
+  "AppVersion": "1.1.2.0",
+  "Title": "Audio Visualizer",
+  "Thumbnail": "lively_t.jpg",
+  "Preview": "lively_p.gif",
+  "Desc": "Displays an audio spectrum of the currently playing system sounds",
+  "Author": "NowbodyAnybody",
+  "License": null,
+  "Contact": "https://github.com/NowbodyAnybody/Lively-Audio-Visualizer",
+  "Type": 2,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}

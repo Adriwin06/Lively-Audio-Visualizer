@@ -1,0 +1,122 @@
+{
+    "color1": {
+        "text": "starting color",
+        "type": "color",
+        "value": "#5603fc"
+    },
+
+    "color2": {
+        "text": "finish color",
+        "type": "color",
+        "value": "#fc0303"
+    },
+    "opacity":{
+        "max": 100,
+        "min": 0,
+        "tick": 25,
+        "step": 1,
+        "text": "spectrum opacity",
+        "type": "slider",
+        "value": 100
+    },
+    "background": {
+        "text": "background color",
+        "type": "color",
+        "value": "#000000"
+    },
+    "useImg":{
+        "text": "use image as background",
+        "type": "checkbox",
+        "value": "false"
+    },
+    "imgPath": {
+        "type": "folderDropdown",
+        "value": "fractal.png",
+        "text": "Image/Gif",
+        "filter": "*.jpg|*.png|*.gif",
+        "folder": "images"
+    },
+    "textColor":{
+        "text" : "audio track text color",
+        "type" : "color",
+        "value" : "#FFFFFF"
+    },
+    "glow":{
+        "text": "neon glow effect",
+        "type": "checkbox",
+        "value": "true"
+    },
+    "glowStrength": {
+        "max": 50,
+        "min": 1,
+        "tick": 25,
+        "step": 1,
+        "text": "neon effect strength",
+        "type": "slider",
+        "value": 10
+    },
+    "amplitude": {
+        "max": 1000,
+        "min": 100,
+        "tick": 25,
+        "step": 10,
+        "text": "bar height",
+        "type": "slider",
+        "value": 300
+    },
+    "spectrumScale": {
+        "max": 100,
+        "min": 1,
+        "tick": 25,
+        "step": 1,
+        "text": "spectrum scale",
+        "type": "slider",
+        "value": 80
+    },
+    "spectrumX": {
+        "max": 100,
+        "min": 0,
+        "tick": 25,
+        "step": 1,
+        "text": "spectrum x position",
+        "type": "slider",
+        "value": 50
+    },
+    "spectrumY": {
+        "max": 100,
+        "min": 0,
+        "tick": 25,
+        "step": 1,
+        "text": "spectrum y position",
+        "type": "slider",
+        "value": 50
+    },
+    "textScale": {
+        "max": 200,
+        "min": 0,
+        "tick": 25,
+        "step": 1,
+        "text": "text scale",
+        "type": "slider",
+        "value": 100
+    },
+    "textX": {
+        "max": 100,
+        "min": 0,
+        "tick": 25,
+        "step": 1,
+        "text": "text x position",
+        "type": "slider",
+        "value": 50
+    },
+    "textY": {
+        "max": 100,
+        "min": 0,
+        "tick": 25,
+        "step": 1,
+        "text": "text y position",
+        "type": "slider",
+        "value": 50
+    }
+
+}
